@@ -1,14 +1,12 @@
 $(document).ready(function() {
 
-    // Init ScrollMagic
     var controller = new ScrollMagic.Controller();
 
-    // build a scene
     var ourScene = new ScrollMagic.Scene({
         triggerElement: '#block_1 .center',
         duration: '30%'
     })
-    .setClassToggle('#block_1 .center', 'fade-out') // add class
+    .setClassToggle('#block_1 .center', 'fade-out')
     .addIndicators({
         name: 'fade scene',
         colorTrigger: 'black',
