@@ -1,0 +1,23 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.screen_height {
+    height: 100vh;
+    width: 100vw;
+    background-color: mediumseagreen;
+
+}
+
+#block_1 {
+    background-color: plum;
+    transition: all 1s ease-out;
+
+}
+
+#block_1.fade-out {
+    background-color: white;
+    transition: all 2s ease-out;
+}
