@@ -5,9 +5,10 @@ $(document).ready(function() {
 
     // build a scene
     var ourScene = new ScrollMagic.Scene({
-        triggerElement: '#block_1'
+        triggerElement: '#block_1 .center',
+        duration: '30%'
     })
-    .setClassToggle('#block_1', 'fade-out') // add class
+    .setClassToggle('#block_1 .center', 'fade-out') // add class
     .addIndicators({
         name: 'fade scene',
         colorTrigger: 'black',
